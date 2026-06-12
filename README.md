@@ -4,7 +4,7 @@
 
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](LICENSE)
 [![Linux · bash · systemd](https://img.shields.io/badge/stack-Linux_·_bash_·_systemd-FACC15.svg)](#stack)
-[![Built in the open](https://img.shields.io/badge/built-in%20the%20open-FACC15.svg)](https://github.com/CODE-CRUNCH-CLUB)
+[![Built in the open](https://img.shields.io/badge/built-in%20the%20open-FACC15.svg)](https://github.com/CODECRUNCHWORLDWIDE)
 
 C14 is the shortest specialization track in Tier 1 (8 weeks) because Linux competence is a *foundation* others build on — not a destination. It's deliberately sized to get you ready for C6 (security), C7 (embedded), and C15 (DevOps) without forcing you to take all of those.
 

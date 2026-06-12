@@ -74,7 +74,7 @@ Save as `/etc/systemd/system/log-rotator.service`:
 ```ini
 [Unit]
 Description=Rotate logs under /var/log/myapp
-Documentation=https://github.com/CODE-CRUNCH-CLUB/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-02-timer-instead-of-cron.md
+Documentation=https://github.com/CODECRUNCHWORLDWIDE/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-02-timer-instead-of-cron.md
 
 [Service]
 Type=oneshot
@@ -109,7 +109,7 @@ Save as `/etc/systemd/system/log-rotator.timer`:
 ```ini
 [Unit]
 Description=Daily log rotation at 03:30
-Documentation=https://github.com/CODE-CRUNCH-CLUB/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-02-timer-instead-of-cron.md
+Documentation=https://github.com/CODECRUNCHWORLDWIDE/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-02-timer-instead-of-cron.md
 
 [Timer]
 OnCalendar=*-*-* 03:30:00

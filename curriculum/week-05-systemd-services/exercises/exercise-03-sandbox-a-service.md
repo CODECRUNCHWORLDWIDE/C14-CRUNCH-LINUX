@@ -82,7 +82,7 @@ Save as `/etc/systemd/system/wide-open.service`:
 ```ini
 [Unit]
 Description=Wide-open HTTP server (BEFORE hardening)
-Documentation=https://github.com/CODE-CRUNCH-CLUB/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-03-sandbox-a-service.md
+Documentation=https://github.com/CODECRUNCHWORLDWIDE/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-03-sandbox-a-service.md
 
 [Service]
 Type=exec
@@ -252,7 +252,7 @@ Your finished unit should look approximately like this:
 ```ini
 [Unit]
 Description=Sandboxed HTTP server (AFTER hardening)
-Documentation=https://github.com/CODE-CRUNCH-CLUB/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-03-sandbox-a-service.md
+Documentation=https://github.com/CODECRUNCHWORLDWIDE/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-03-sandbox-a-service.md
 
 [Service]
 Type=exec

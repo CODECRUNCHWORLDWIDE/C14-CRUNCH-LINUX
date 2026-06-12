@@ -52,7 +52,7 @@ Contents — note the `User=` line, which you must change to your username:
 ```ini
 [Unit]
 Description=Tick test service - prints a timestamped line every 5 seconds
-Documentation=https://github.com/CODE-CRUNCH-CLUB/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-01-first-unit-file.md
+Documentation=https://github.com/CODECRUNCHWORLDWIDE/C14-CRUNCH-LINUX/blob/main/curriculum/week-05-systemd-services/exercises/exercise-01-first-unit-file.md
 
 [Service]
 Type=exec
