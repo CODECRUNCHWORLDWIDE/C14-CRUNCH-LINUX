@@ -1,477 +1,228 @@
 {
   "repo": "C14-CRUNCH-LINUX",
+  "updated": "2026-06-11T14:22:52-05:00",
   "files": [
-    {
-      "path": "00-overview.md",
-      "title": "C14 \u00b7 Crunch Linux"
-    },
-    {
-      "path": "CODE_OF_CONDUCT.md",
-      "title": "Contributor Covenant Code of Conduct"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "title": "Contributing to Crunch Linux"
-    },
-    {
-      "path": "assets/branding/BRAND.md",
-      "title": "C14 \u00b7 Crunch Linux \u2014 Brand Guide"
-    },
-    {
-      "path": "curriculum/SYLLABUS.md",
-      "title": "C14 \u00b7 Crunch Linux \u2014 Syllabus"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/00-overview.md",
-      "title": "Week 1 \u2014 The Shell and the Filesystem"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/01-resources.md",
-      "title": "Week 1 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/02-lecture-notes/01-what-is-linux-and-what-is-a-shell.md",
-      "title": "Lecture 1 \u2014 What is Linux, and what is a shell?"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/02-lecture-notes/02-the-filesystem-hierarchy.md",
-      "title": "Lecture 2 \u2014 The Filesystem Hierarchy"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/02-lecture-notes/03-pipes-redirection-globs.md",
-      "title": "Lecture 3 \u2014 Pipes, Redirection, and Globs"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/03-exercises/00-overview.md",
-      "title": "Week 1 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/03-exercises/exercise-01-fifty-commands.md",
-      "title": "Exercise 1 \u2014 The 50-command tour"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/03-exercises/exercise-02-find-the-files.md",
-      "title": "Exercise 2 \u2014 Find the Files"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/03-exercises/exercise-03-grep-and-pipes.md",
-      "title": "Exercise 3 \u2014 Grep + Pipes on a Real Log"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/04-challenges/00-overview.md",
-      "title": "Week 1 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/04-challenges/challenge-01-recover-from-disaster.md",
-      "title": "Challenge 1 \u2014 Recover from a (Simulated) Disaster"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/04-challenges/challenge-02-build-your-own-tree.md",
-      "title": "Challenge 2 \u2014 Build Your Own `tree`"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/05-quiz.md",
-      "title": "Week 1 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/06-homework.md",
-      "title": "Week 1 \u2014 Homework"
-    },
-    {
-      "path": "curriculum/week-01-shell-and-filesystem/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Filesystem Map"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/00-overview.md",
-      "title": "Week 2 \u2014 Text and Pipes"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/01-resources.md",
-      "title": "Week 2 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/02-lecture-notes/01-awk-as-a-language.md",
-      "title": "Lecture 1 \u2014 `awk` as a Language"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/02-lecture-notes/02-sed-and-text-surgery.md",
-      "title": "Lecture 2 \u2014 `sed` and Text Surgery"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/03-exercises/00-overview.md",
-      "title": "Week 2 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/03-exercises/exercise-01-awk-puzzles.md",
-      "title": "Exercise 01 \u2014 Ten `awk` Puzzles"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/03-exercises/exercise-02-sed-substitutions.md",
-      "title": "Exercise 02 \u2014 Ten `sed` Substitutions"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/03-exercises/exercise-03-real-log-pipeline.md",
-      "title": "Exercise 03 \u2014 A Real Log Pipeline"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/04-challenges/00-overview.md",
-      "title": "Week 2 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/04-challenges/challenge-01-csv-without-python.md",
-      "title": "Challenge 01 \u2014 CSV Without Python"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/05-quiz.md",
-      "title": "Week 2 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/06-homework.md",
-      "title": "Week 2 \u2014 Homework"
-    },
-    {
-      "path": "curriculum/week-02-text-and-pipes/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 A Log-Analysis Pipeline"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/00-overview.md",
-      "title": "Week 3 \u2014 Permissions, Users, Groups, ACLs"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/01-resources.md",
-      "title": "Week 3 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/02-lecture-notes/01-the-unix-permission-bits.md",
-      "title": "Lecture 1 \u2014 The Unix Permission Bits"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/02-lecture-notes/02-users-groups-sudo-acls.md",
-      "title": "Lecture 2 \u2014 Users, Groups, `sudo`, ACLs"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/03-exercises/00-overview.md",
-      "title": "Week 3 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/03-exercises/exercise-01-permission-puzzles.md",
-      "title": "Exercise 01 \u2014 Twelve Permission Puzzles"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/03-exercises/exercise-02-add-users-and-groups.md",
-      "title": "Exercise 02 \u2014 Add Users and Groups"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/03-exercises/exercise-03-setuid-investigation.md",
-      "title": "Exercise 03 \u2014 `setuid` Investigation"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/04-challenges/00-overview.md",
-      "title": "Week 3 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/04-challenges/challenge-01-multi-user-shared-folder.md",
-      "title": "Challenge 01 \u2014 The Multi-User Shared Folder"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/05-quiz.md",
-      "title": "Week 3 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/06-homework.md",
-      "title": "Week 3 \u2014 Homework"
-    },
-    {
-      "path": "curriculum/week-03-permissions-users-groups/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 A Multi-User Demo with Permission Boundaries"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/00-overview.md",
-      "title": "Week 4 \u2014 Shell Scripting Properly"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/01-resources.md",
-      "title": "Week 4 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/02-lecture-notes/01-set-euo-pipefail-and-quoting.md",
-      "title": "Lecture 1 \u2014 `set -euo pipefail` and Quoting"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/02-lecture-notes/02-functions-and-trap-signals.md",
-      "title": "Lecture 2 \u2014 Functions and Trap Signals"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/03-exercises/00-overview.md",
-      "title": "Week 4 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/03-exercises/exercise-01-write-3-defensive-scripts.md",
-      "title": "Exercise 01 \u2014 Write Three Defensive Scripts"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/03-exercises/exercise-02-trap-and-cleanup.md",
-      "title": "Exercise 02 \u2014 Trap and Cleanup"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/03-exercises/exercise-03-shellcheck-fixes.md",
-      "title": "Exercise 03 \u2014 ShellCheck Fixes"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/04-challenges/00-overview.md",
-      "title": "Week 4 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/04-challenges/challenge-01-rewrite-bad-script.md",
-      "title": "Challenge 01 \u2014 Rewrite a Bad Script"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/05-quiz.md",
-      "title": "Week 4 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/06-homework.md",
-      "title": "Week 4 \u2014 Homework"
-    },
-    {
-      "path": "curriculum/week-04-shell-scripting-properly/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Three Useful Scripts"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/00-overview.md",
-      "title": "Week 5 \u2014 systemd and Services"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/01-resources.md",
-      "title": "Week 5 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/02-lecture-notes/01-unit-files-services-timers-sockets.md",
-      "title": "Lecture 1 \u2014 Unit Files: Services, Timers, Sockets"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/02-lecture-notes/02-journalctl-and-the-sandboxing-options.md",
-      "title": "Lecture 2 \u2014 `journalctl` and the Sandboxing Options"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/03-exercises/00-overview.md",
-      "title": "Week 5 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/03-exercises/exercise-01-first-unit-file.md",
-      "title": "Exercise 01 \u2014 Your First Unit File"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/03-exercises/exercise-02-timer-instead-of-cron.md",
-      "title": "Exercise 02 \u2014 A Timer Instead of `cron`"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/03-exercises/exercise-03-sandbox-a-service.md",
-      "title": "Exercise 03 \u2014 Sandbox a Service"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/04-challenges/00-overview.md",
-      "title": "Week 5 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/04-challenges/challenge-01-multi-instance-template-units.md",
-      "title": "Challenge 01 \u2014 Multi-Instance Template Units"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/05-quiz.md",
-      "title": "Week 5 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/06-homework.md",
-      "title": "Week 5 \u2014 Homework"
-    },
-    {
-      "path": "curriculum/week-05-systemd-services/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 A systemd-Managed Python Web Service"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/00-overview.md",
-      "title": "Week 6 \u2014 SSH, Networking, Firewalls"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/01-resources.md",
-      "title": "Week 6 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/02-lecture-notes/01-ssh-keys-agent-config-proxyjump.md",
-      "title": "Lecture 1 \u2014 SSH Keys, `ssh-agent`, `~/.ssh/config`, ProxyJump"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/02-lecture-notes/02-nftables-and-firewall-basics.md",
-      "title": "Lecture 2 \u2014 nftables and Firewall Basics"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/03-exercises/00-overview.md",
-      "title": "Week 6 \u2014 Exercises"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/03-exercises/exercise-01-key-auth-and-config.md",
-      "title": "Exercise 01 \u2014 Key Auth and `~/.ssh/config`"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/03-exercises/exercise-02-proxyjump-bastion.md",
-      "title": "Exercise 02 \u2014 ProxyJump and the Bastion Pattern"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/03-exercises/exercise-03-nftables-rules.md",
-      "title": "Exercise 03 \u2014 Write an `nftables` Ruleset"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/04-challenges/00-overview.md",
-      "title": "Week 6 \u2014 Challenges"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/04-challenges/challenge-01-harden-a-fresh-vps.md",
-      "title": "Challenge 01 \u2014 Harden a Fresh VPS"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/05-quiz.md",
-      "title": "Week 6 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/06-homework.md",
-      "title": "Week 6 \u2014 Homework"
-    },
-    {
-      "path": "curriculum/week-06-ssh-networking-firewalls/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Provision, Harden, and Verify a $5/mo VPS"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/00-overview.md",
-      "title": "Week 7 \u2014 Observability: htop, iostat, strace, and the /proc filesystem"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/01-resources.md",
-      "title": "Week 7 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/02-lecture-notes/01-the-use-method-and-where-to-start.md",
-      "title": "Lecture 1 \u2014 The USE method and where to start"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/02-lecture-notes/02-cpu-and-process-tools.md",
-      "title": "Lecture 2 \u2014 CPU and process tools"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/02-lecture-notes/03-io-memory-syscalls.md",
-      "title": "Lecture 3 \u2014 IO, memory, and syscalls"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/03-exercises/SOLUTIONS.md",
-      "title": "Exercises \u2014 Solutions"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/03-exercises/exercise-01-diagnose-a-busy-cpu.md",
-      "title": "Exercise 1 \u2014 Diagnose a busy CPU"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/03-exercises/exercise-02-trace-a-syscall.md",
-      "title": "Exercise 2 \u2014 Trace a syscall"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/03-exercises/exercise-03-iostat-during-dd.md",
-      "title": "Exercise 3 \u2014 `iostat -x 1` during a `dd` write"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/04-challenges/challenge-02-detect-noisy-neighbor.md",
-      "title": "Challenge 2 \u2014 Detect a noisy neighbour"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/05-quiz.md",
-      "title": "Week 7 \u2014 Quiz"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/06-homework.md",
-      "title": "Week 7 \u2014 Homework"
-    },
-    {
-      "path": "curriculum/week-07-observability-htop-iostat-strace/07-mini-project/00-overview.md",
-      "title": "Mini-Project \u2014 Diagnose a synthetic load; write a full performance report"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/00-overview.md",
-      "title": "Week 8 \u2014 Disks, filesystems, and the page cache"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/01-resources.md",
-      "title": "Week 8 \u2014 Resources"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/02-lecture-notes/01-block-devices-partitions-and-the-mount-stack.md",
-      "title": "Lecture 1 \u2014 Block devices, partitions, and the mount stack"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/02-lecture-notes/02-filesystems-and-mount-options.md",
-      "title": "Lecture 2 \u2014 Filesystems and mount options"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/02-lecture-notes/03-lvm-page-cache-writeback-and-fio.md",
-      "title": "Lecture 3 \u2014 LVM, the page cache, writeback, and `fio`"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/03-exercises/SOLUTIONS.md",
-      "title": "Exercises \u2014 Solutions"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/03-exercises/exercise-01-partition-format-mount.md",
-      "title": "Exercise 1 \u2014 Partition, format, mount, persist"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/03-exercises/exercise-02-page-cache-cold-vs-warm.md",
-      "title": "Exercise 2 \u2014 The page cache, cold versus warm"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/03-exercises/exercise-03-lvm-create-extend-snapshot.md",
-      "title": "Exercise 3 \u2014 LVM: create, extend, snapshot"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/03-exercises/exercise-04-fio-four-canonical-jobs.md",
-      "title": "Exercise 4 \u2014 `fio`: the four canonical jobs"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/04-challenges/challenge-02-fstab-linter.md",
-      "title": "Challenge 02 \u2014 Write an `/etc/fstab` linter"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/05-quiz.md",
-      "title": "Week 8 Quiz \u2014 Final exam"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/06-homework.md",
-      "title": "Week 8 Homework"
-    },
-    {
-      "path": "curriculum/week-08-disks-filesystems-and-page-cache/07-mini-project/00-overview.md",
-      "title": "Mini-Project (Track Capstone) \u2014 Run a real Linux server for 7 days"
-    },
-    {
-      "path": "past-sessions/C14-SPRING2025/C14-README-SPR25.MD",
-      "title": "C14 Crunch LINUX"
-    },
-    {
-      "path": "resources/setup-guides/00-overview.md",
-      "title": "Setup Guides"
-    },
-    {
-      "path": "resources/setup-guides/browser.md",
-      "title": "Browser-Based Setup (No Install)"
-    },
-    {
-      "path": "resources/setup-guides/linux.md",
-      "title": "Linux Setup Guide"
-    },
-    {
-      "path": "resources/setup-guides/macos.md",
-      "title": "macOS Setup Guide"
-    },
-    {
-      "path": "resources/setup-guides/windows.md",
-      "title": "Windows Setup Guide"
-    }
+    {"path": "._README.md", "title": ". README"},
+    {"path": "._SYLLABUS.md", "title": ". SYLLABUS"},
+    {"path": "C14-SPRING2025/._C14-README-SPR25.MD", "title": ". C14 README SPR25"},
+    {"path": "C14-SPRING2025/C14-README-SPR25.MD", "title": "C14 Crunch LINUX"},
+    {"path": "README.md", "title": "C14 · Crunch Linux"},
+    {"path": "SYLLABUS.md", "title": "C14 · Crunch Linux — Syllabus"},
+    {"path": "branding/._BRAND.md", "title": ". BRAND"},
+    {"path": "branding/BRAND.md", "title": "C14 · Crunch Linux — Brand Guide"},
+    {"path": "curriculum/week-01-shell-and-filesystem/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-shell-and-filesystem/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-01-shell-and-filesystem/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-01-shell-and-filesystem/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-01-shell-and-filesystem/README.md", "title": "Week 1 — The Shell and the Filesystem"},
+    {"path": "curriculum/week-01-shell-and-filesystem/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-shell-and-filesystem/challenges/._challenge-01-recover-from-disaster.md", "title": ". challenge 01 recover from disaster"},
+    {"path": "curriculum/week-01-shell-and-filesystem/challenges/._challenge-02-build-your-own-tree.md", "title": ". challenge 02 build your own tree"},
+    {"path": "curriculum/week-01-shell-and-filesystem/challenges/README.md", "title": "Week 1 — Challenges"},
+    {"path": "curriculum/week-01-shell-and-filesystem/challenges/challenge-01-recover-from-disaster.md", "title": "Challenge 1 — Recover from a (Simulated) Disaster"},
+    {"path": "curriculum/week-01-shell-and-filesystem/challenges/challenge-02-build-your-own-tree.md", "title": "Challenge 2 — Build Your Own `tree`"},
+    {"path": "curriculum/week-01-shell-and-filesystem/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-shell-and-filesystem/exercises/._exercise-01-fifty-commands.md", "title": ". exercise 01 fifty commands"},
+    {"path": "curriculum/week-01-shell-and-filesystem/exercises/._exercise-02-find-the-files.md", "title": ". exercise 02 find the files"},
+    {"path": "curriculum/week-01-shell-and-filesystem/exercises/._exercise-03-grep-and-pipes.md", "title": ". exercise 03 grep and pipes"},
+    {"path": "curriculum/week-01-shell-and-filesystem/exercises/README.md", "title": "Week 1 — Exercises"},
+    {"path": "curriculum/week-01-shell-and-filesystem/exercises/exercise-01-fifty-commands.md", "title": "Exercise 1 — The 50-command tour"},
+    {"path": "curriculum/week-01-shell-and-filesystem/exercises/exercise-02-find-the-files.md", "title": "Exercise 2 — Find the Files"},
+    {"path": "curriculum/week-01-shell-and-filesystem/exercises/exercise-03-grep-and-pipes.md", "title": "Exercise 3 — Grep + Pipes on a Real Log"},
+    {"path": "curriculum/week-01-shell-and-filesystem/homework.md", "title": "Week 1 — Homework"},
+    {"path": "curriculum/week-01-shell-and-filesystem/lecture-notes/._01-what-is-linux-and-what-is-a-shell.md", "title": ". 01 what is linux and what is a shell"},
+    {"path": "curriculum/week-01-shell-and-filesystem/lecture-notes/._02-the-filesystem-hierarchy.md", "title": ". 02 the filesystem hierarchy"},
+    {"path": "curriculum/week-01-shell-and-filesystem/lecture-notes/._03-pipes-redirection-globs.md", "title": ". 03 pipes redirection globs"},
+    {"path": "curriculum/week-01-shell-and-filesystem/lecture-notes/01-what-is-linux-and-what-is-a-shell.md", "title": "Lecture 1 — What is Linux, and what is a shell?"},
+    {"path": "curriculum/week-01-shell-and-filesystem/lecture-notes/02-the-filesystem-hierarchy.md", "title": "Lecture 2 — The Filesystem Hierarchy"},
+    {"path": "curriculum/week-01-shell-and-filesystem/lecture-notes/03-pipes-redirection-globs.md", "title": "Lecture 3 — Pipes, Redirection, and Globs"},
+    {"path": "curriculum/week-01-shell-and-filesystem/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-01-shell-and-filesystem/mini-project/README.md", "title": "Mini-Project — Filesystem Map"},
+    {"path": "curriculum/week-01-shell-and-filesystem/quiz.md", "title": "Week 1 — Quiz"},
+    {"path": "curriculum/week-01-shell-and-filesystem/resources.md", "title": "Week 1 — Resources"},
+    {"path": "curriculum/week-02-text-and-pipes/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-text-and-pipes/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-02-text-and-pipes/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-02-text-and-pipes/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-02-text-and-pipes/README.md", "title": "Week 2 — Text and Pipes"},
+    {"path": "curriculum/week-02-text-and-pipes/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-text-and-pipes/challenges/._challenge-01-csv-without-python.md", "title": ". challenge 01 csv without python"},
+    {"path": "curriculum/week-02-text-and-pipes/challenges/README.md", "title": "Week 2 — Challenges"},
+    {"path": "curriculum/week-02-text-and-pipes/challenges/challenge-01-csv-without-python.md", "title": "Challenge 01 — CSV Without Python"},
+    {"path": "curriculum/week-02-text-and-pipes/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-text-and-pipes/exercises/._exercise-01-awk-puzzles.md", "title": ". exercise 01 awk puzzles"},
+    {"path": "curriculum/week-02-text-and-pipes/exercises/._exercise-02-sed-substitutions.md", "title": ". exercise 02 sed substitutions"},
+    {"path": "curriculum/week-02-text-and-pipes/exercises/._exercise-03-real-log-pipeline.md", "title": ". exercise 03 real log pipeline"},
+    {"path": "curriculum/week-02-text-and-pipes/exercises/README.md", "title": "Week 2 — Exercises"},
+    {"path": "curriculum/week-02-text-and-pipes/exercises/exercise-01-awk-puzzles.md", "title": "Exercise 01 — Ten `awk` Puzzles"},
+    {"path": "curriculum/week-02-text-and-pipes/exercises/exercise-02-sed-substitutions.md", "title": "Exercise 02 — Ten `sed` Substitutions"},
+    {"path": "curriculum/week-02-text-and-pipes/exercises/exercise-03-real-log-pipeline.md", "title": "Exercise 03 — A Real Log Pipeline"},
+    {"path": "curriculum/week-02-text-and-pipes/homework.md", "title": "Week 2 — Homework"},
+    {"path": "curriculum/week-02-text-and-pipes/lecture-notes/._01-awk-as-a-language.md", "title": ". 01 awk as a language"},
+    {"path": "curriculum/week-02-text-and-pipes/lecture-notes/._02-sed-and-text-surgery.md", "title": ". 02 sed and text surgery"},
+    {"path": "curriculum/week-02-text-and-pipes/lecture-notes/01-awk-as-a-language.md", "title": "Lecture 1 — `awk` as a Language"},
+    {"path": "curriculum/week-02-text-and-pipes/lecture-notes/02-sed-and-text-surgery.md", "title": "Lecture 2 — `sed` and Text Surgery"},
+    {"path": "curriculum/week-02-text-and-pipes/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-02-text-and-pipes/mini-project/README.md", "title": "Mini-Project — A Log-Analysis Pipeline"},
+    {"path": "curriculum/week-02-text-and-pipes/quiz.md", "title": "Week 2 — Quiz"},
+    {"path": "curriculum/week-02-text-and-pipes/resources.md", "title": "Week 2 — Resources"},
+    {"path": "curriculum/week-03-permissions-users-groups/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-permissions-users-groups/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-03-permissions-users-groups/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-03-permissions-users-groups/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-03-permissions-users-groups/README.md", "title": "Week 3 — Permissions, Users, Groups, ACLs"},
+    {"path": "curriculum/week-03-permissions-users-groups/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-permissions-users-groups/challenges/._challenge-01-multi-user-shared-folder.md", "title": ". challenge 01 multi user shared folder"},
+    {"path": "curriculum/week-03-permissions-users-groups/challenges/README.md", "title": "Week 3 — Challenges"},
+    {"path": "curriculum/week-03-permissions-users-groups/challenges/challenge-01-multi-user-shared-folder.md", "title": "Challenge 01 — The Multi-User Shared Folder"},
+    {"path": "curriculum/week-03-permissions-users-groups/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-permissions-users-groups/exercises/._exercise-01-permission-puzzles.md", "title": ". exercise 01 permission puzzles"},
+    {"path": "curriculum/week-03-permissions-users-groups/exercises/._exercise-02-add-users-and-groups.md", "title": ". exercise 02 add users and groups"},
+    {"path": "curriculum/week-03-permissions-users-groups/exercises/._exercise-03-setuid-investigation.md", "title": ". exercise 03 setuid investigation"},
+    {"path": "curriculum/week-03-permissions-users-groups/exercises/README.md", "title": "Week 3 — Exercises"},
+    {"path": "curriculum/week-03-permissions-users-groups/exercises/exercise-01-permission-puzzles.md", "title": "Exercise 01 — Twelve Permission Puzzles"},
+    {"path": "curriculum/week-03-permissions-users-groups/exercises/exercise-02-add-users-and-groups.md", "title": "Exercise 02 — Add Users and Groups"},
+    {"path": "curriculum/week-03-permissions-users-groups/exercises/exercise-03-setuid-investigation.md", "title": "Exercise 03 — `setuid` Investigation"},
+    {"path": "curriculum/week-03-permissions-users-groups/homework.md", "title": "Week 3 — Homework"},
+    {"path": "curriculum/week-03-permissions-users-groups/lecture-notes/._01-the-unix-permission-bits.md", "title": ". 01 the unix permission bits"},
+    {"path": "curriculum/week-03-permissions-users-groups/lecture-notes/._02-users-groups-sudo-acls.md", "title": ". 02 users groups sudo acls"},
+    {"path": "curriculum/week-03-permissions-users-groups/lecture-notes/01-the-unix-permission-bits.md", "title": "Lecture 1 — The Unix Permission Bits"},
+    {"path": "curriculum/week-03-permissions-users-groups/lecture-notes/02-users-groups-sudo-acls.md", "title": "Lecture 2 — Users, Groups, `sudo`, ACLs"},
+    {"path": "curriculum/week-03-permissions-users-groups/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-03-permissions-users-groups/mini-project/README.md", "title": "Mini-Project — A Multi-User Demo with Permission Boundaries"},
+    {"path": "curriculum/week-03-permissions-users-groups/quiz.md", "title": "Week 3 — Quiz"},
+    {"path": "curriculum/week-03-permissions-users-groups/resources.md", "title": "Week 3 — Resources"},
+    {"path": "curriculum/week-04-shell-scripting-properly/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-shell-scripting-properly/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-04-shell-scripting-properly/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-04-shell-scripting-properly/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-04-shell-scripting-properly/README.md", "title": "Week 4 — Shell Scripting Properly"},
+    {"path": "curriculum/week-04-shell-scripting-properly/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-shell-scripting-properly/challenges/._challenge-01-rewrite-bad-script.md", "title": ". challenge 01 rewrite bad script"},
+    {"path": "curriculum/week-04-shell-scripting-properly/challenges/README.md", "title": "Week 4 — Challenges"},
+    {"path": "curriculum/week-04-shell-scripting-properly/challenges/challenge-01-rewrite-bad-script.md", "title": "Challenge 01 — Rewrite a Bad Script"},
+    {"path": "curriculum/week-04-shell-scripting-properly/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-shell-scripting-properly/exercises/._exercise-01-write-3-defensive-scripts.md", "title": ". exercise 01 write 3 defensive scripts"},
+    {"path": "curriculum/week-04-shell-scripting-properly/exercises/._exercise-02-trap-and-cleanup.md", "title": ". exercise 02 trap and cleanup"},
+    {"path": "curriculum/week-04-shell-scripting-properly/exercises/._exercise-03-shellcheck-fixes.md", "title": ". exercise 03 shellcheck fixes"},
+    {"path": "curriculum/week-04-shell-scripting-properly/exercises/README.md", "title": "Week 4 — Exercises"},
+    {"path": "curriculum/week-04-shell-scripting-properly/exercises/exercise-01-write-3-defensive-scripts.md", "title": "Exercise 01 — Write Three Defensive Scripts"},
+    {"path": "curriculum/week-04-shell-scripting-properly/exercises/exercise-02-trap-and-cleanup.md", "title": "Exercise 02 — Trap and Cleanup"},
+    {"path": "curriculum/week-04-shell-scripting-properly/exercises/exercise-03-shellcheck-fixes.md", "title": "Exercise 03 — ShellCheck Fixes"},
+    {"path": "curriculum/week-04-shell-scripting-properly/homework.md", "title": "Week 4 — Homework"},
+    {"path": "curriculum/week-04-shell-scripting-properly/lecture-notes/._01-set-euo-pipefail-and-quoting.md", "title": ". 01 set euo pipefail and quoting"},
+    {"path": "curriculum/week-04-shell-scripting-properly/lecture-notes/._02-functions-and-trap-signals.md", "title": ". 02 functions and trap signals"},
+    {"path": "curriculum/week-04-shell-scripting-properly/lecture-notes/01-set-euo-pipefail-and-quoting.md", "title": "Lecture 1 — `set -euo pipefail` and Quoting"},
+    {"path": "curriculum/week-04-shell-scripting-properly/lecture-notes/02-functions-and-trap-signals.md", "title": "Lecture 2 — Functions and Trap Signals"},
+    {"path": "curriculum/week-04-shell-scripting-properly/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-04-shell-scripting-properly/mini-project/README.md", "title": "Mini-Project — Three Useful Scripts"},
+    {"path": "curriculum/week-04-shell-scripting-properly/quiz.md", "title": "Week 4 — Quiz"},
+    {"path": "curriculum/week-04-shell-scripting-properly/resources.md", "title": "Week 4 — Resources"},
+    {"path": "curriculum/week-05-systemd-services/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-systemd-services/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-05-systemd-services/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-05-systemd-services/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-05-systemd-services/README.md", "title": "Week 5 — systemd and Services"},
+    {"path": "curriculum/week-05-systemd-services/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-systemd-services/challenges/._challenge-01-multi-instance-template-units.md", "title": ". challenge 01 multi instance template units"},
+    {"path": "curriculum/week-05-systemd-services/challenges/README.md", "title": "Week 5 — Challenges"},
+    {"path": "curriculum/week-05-systemd-services/challenges/challenge-01-multi-instance-template-units.md", "title": "Challenge 01 — Multi-Instance Template Units"},
+    {"path": "curriculum/week-05-systemd-services/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-systemd-services/exercises/._exercise-01-first-unit-file.md", "title": ". exercise 01 first unit file"},
+    {"path": "curriculum/week-05-systemd-services/exercises/._exercise-02-timer-instead-of-cron.md", "title": ". exercise 02 timer instead of cron"},
+    {"path": "curriculum/week-05-systemd-services/exercises/._exercise-03-sandbox-a-service.md", "title": ". exercise 03 sandbox a service"},
+    {"path": "curriculum/week-05-systemd-services/exercises/README.md", "title": "Week 5 — Exercises"},
+    {"path": "curriculum/week-05-systemd-services/exercises/exercise-01-first-unit-file.md", "title": "Exercise 01 — Your First Unit File"},
+    {"path": "curriculum/week-05-systemd-services/exercises/exercise-02-timer-instead-of-cron.md", "title": "Exercise 02 — A Timer Instead of `cron`"},
+    {"path": "curriculum/week-05-systemd-services/exercises/exercise-03-sandbox-a-service.md", "title": "Exercise 03 — Sandbox a Service"},
+    {"path": "curriculum/week-05-systemd-services/homework.md", "title": "Week 5 — Homework"},
+    {"path": "curriculum/week-05-systemd-services/lecture-notes/._01-unit-files-services-timers-sockets.md", "title": ". 01 unit files services timers sockets"},
+    {"path": "curriculum/week-05-systemd-services/lecture-notes/._02-journalctl-and-the-sandboxing-options.md", "title": ". 02 journalctl and the sandboxing options"},
+    {"path": "curriculum/week-05-systemd-services/lecture-notes/01-unit-files-services-timers-sockets.md", "title": "Lecture 1 — Unit Files: Services, Timers, Sockets"},
+    {"path": "curriculum/week-05-systemd-services/lecture-notes/02-journalctl-and-the-sandboxing-options.md", "title": "Lecture 2 — `journalctl` and the Sandboxing Options"},
+    {"path": "curriculum/week-05-systemd-services/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-05-systemd-services/mini-project/README.md", "title": "Mini-Project — A systemd-Managed Python Web Service"},
+    {"path": "curriculum/week-05-systemd-services/quiz.md", "title": "Week 5 — Quiz"},
+    {"path": "curriculum/week-05-systemd-services/resources.md", "title": "Week 5 — Resources"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/README.md", "title": "Week 6 — SSH, Networking, Firewalls"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/challenges/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/challenges/._challenge-01-harden-a-fresh-vps.md", "title": ". challenge 01 harden a fresh vps"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/challenges/README.md", "title": "Week 6 — Challenges"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/challenges/challenge-01-harden-a-fresh-vps.md", "title": "Challenge 01 — Harden a Fresh VPS"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/exercises/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/exercises/._exercise-01-key-auth-and-config.md", "title": ". exercise 01 key auth and config"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/exercises/._exercise-02-proxyjump-bastion.md", "title": ". exercise 02 proxyjump bastion"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/exercises/._exercise-03-nftables-rules.md", "title": ". exercise 03 nftables rules"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/exercises/README.md", "title": "Week 6 — Exercises"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/exercises/exercise-01-key-auth-and-config.md", "title": "Exercise 01 — Key Auth and `~/.ssh/config`"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/exercises/exercise-02-proxyjump-bastion.md", "title": "Exercise 02 — ProxyJump and the Bastion Pattern"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/exercises/exercise-03-nftables-rules.md", "title": "Exercise 03 — Write an `nftables` Ruleset"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/homework.md", "title": "Week 6 — Homework"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/lecture-notes/._01-ssh-keys-agent-config-proxyjump.md", "title": ". 01 ssh keys agent config proxyjump"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/lecture-notes/._02-nftables-and-firewall-basics.md", "title": ". 02 nftables and firewall basics"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/lecture-notes/01-ssh-keys-agent-config-proxyjump.md", "title": "Lecture 1 — SSH Keys, `ssh-agent`, `~/.ssh/config`, ProxyJump"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/lecture-notes/02-nftables-and-firewall-basics.md", "title": "Lecture 2 — nftables and Firewall Basics"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/mini-project/README.md", "title": "Mini-Project — Provision, Harden, and Verify a $5/mo VPS"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/quiz.md", "title": "Week 6 — Quiz"},
+    {"path": "curriculum/week-06-ssh-networking-firewalls/resources.md", "title": "Week 6 — Resources"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/README.md", "title": "Week 7 — Observability: htop, iostat, strace, and the /proc filesystem"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/challenges/._challenge-02-detect-noisy-neighbor.md", "title": ". challenge 02 detect noisy neighbor"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/challenges/challenge-02-detect-noisy-neighbor.md", "title": "Challenge 2 — Detect a noisy neighbour"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/exercises/._SOLUTIONS.md", "title": ". SOLUTIONS"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/exercises/._exercise-01-diagnose-a-busy-cpu.md", "title": ". exercise 01 diagnose a busy cpu"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/exercises/._exercise-02-trace-a-syscall.md", "title": ". exercise 02 trace a syscall"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/exercises/._exercise-03-iostat-during-dd.md", "title": ". exercise 03 iostat during dd"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/exercises/SOLUTIONS.md", "title": "Exercises — Solutions"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/exercises/exercise-01-diagnose-a-busy-cpu.md", "title": "Exercise 1 — Diagnose a busy CPU"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/exercises/exercise-02-trace-a-syscall.md", "title": "Exercise 2 — Trace a syscall"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/exercises/exercise-03-iostat-during-dd.md", "title": "Exercise 3 — `iostat -x 1` during a `dd` write"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/homework.md", "title": "Week 7 — Homework"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/lecture-notes/._01-the-use-method-and-where-to-start.md", "title": ". 01 the use method and where to start"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/lecture-notes/._02-cpu-and-process-tools.md", "title": ". 02 cpu and process tools"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/lecture-notes/._03-io-memory-syscalls.md", "title": ". 03 io memory syscalls"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/lecture-notes/01-the-use-method-and-where-to-start.md", "title": "Lecture 1 — The USE method and where to start"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/lecture-notes/02-cpu-and-process-tools.md", "title": "Lecture 2 — CPU and process tools"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/lecture-notes/03-io-memory-syscalls.md", "title": "Lecture 3 — IO, memory, and syscalls"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/mini-project/README.md", "title": "Mini-Project — Diagnose a synthetic load; write a full performance report"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/quiz.md", "title": "Week 7 — Quiz"},
+    {"path": "curriculum/week-07-observability-htop-iostat-strace/resources.md", "title": "Week 7 — Resources"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/._homework.md", "title": ". homework"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/._quiz.md", "title": ". quiz"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/._resources.md", "title": ". resources"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/README.md", "title": "Week 8 — Disks, filesystems, and the page cache"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/challenges/._challenge-02-fstab-linter.md", "title": ". challenge 02 fstab linter"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/challenges/challenge-02-fstab-linter.md", "title": "Challenge 02 — Write an `/etc/fstab` linter"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/._SOLUTIONS.md", "title": ". SOLUTIONS"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/._exercise-01-partition-format-mount.md", "title": ". exercise 01 partition format mount"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/._exercise-02-page-cache-cold-vs-warm.md", "title": ". exercise 02 page cache cold vs warm"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/._exercise-03-lvm-create-extend-snapshot.md", "title": ". exercise 03 lvm create extend snapshot"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/._exercise-04-fio-four-canonical-jobs.md", "title": ". exercise 04 fio four canonical jobs"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/SOLUTIONS.md", "title": "Exercises — Solutions"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/exercise-01-partition-format-mount.md", "title": "Exercise 1 — Partition, format, mount, persist"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/exercise-02-page-cache-cold-vs-warm.md", "title": "Exercise 2 — The page cache, cold versus warm"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/exercise-03-lvm-create-extend-snapshot.md", "title": "Exercise 3 — LVM: create, extend, snapshot"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/exercises/exercise-04-fio-four-canonical-jobs.md", "title": "Exercise 4 — `fio`: the four canonical jobs"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/homework.md", "title": "Week 8 Homework"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/lecture-notes/._01-block-devices-partitions-and-the-mount-stack.md", "title": ". 01 block devices partitions and the mount stack"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/lecture-notes/._02-filesystems-and-mount-options.md", "title": ". 02 filesystems and mount options"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/lecture-notes/._03-lvm-page-cache-writeback-and-fio.md", "title": ". 03 lvm page cache writeback and fio"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/lecture-notes/01-block-devices-partitions-and-the-mount-stack.md", "title": "Lecture 1 — Block devices, partitions, and the mount stack"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/lecture-notes/02-filesystems-and-mount-options.md", "title": "Lecture 2 — Filesystems and mount options"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/lecture-notes/03-lvm-page-cache-writeback-and-fio.md", "title": "Lecture 3 — LVM, the page cache, writeback, and `fio`"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/mini-project/._README.md", "title": ". README"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/mini-project/README.md", "title": "Mini-Project (Track Capstone) — Run a real Linux server for 7 days"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/quiz.md", "title": "Week 8 Quiz — Final exam"},
+    {"path": "curriculum/week-08-disks-filesystems-and-page-cache/resources.md", "title": "Week 8 — Resources"}
   ]
 }
