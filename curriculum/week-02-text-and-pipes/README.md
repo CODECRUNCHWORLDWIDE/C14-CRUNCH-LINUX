@@ -15,6 +15,14 @@ By the end of this week, you will be able to:
 - **Compose** `awk` and `sed` into longer pipelines that answer real operational questions about real log files in `/var/log`.
 - **Cite** portability: GNU `awk` (`gawk`), `mawk`, `nawk`, and BWK `awk` are not the same program. Same for GNU `sed` vs BSD `sed`.
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CS 2043` — Filter, transform and summarise text streams with the standard Unix tools, composing them into pipelines. |
+| Industry | Answer an operational question about production behaviour from the log files alone, then hand over the pipeline that produced the answer so somebody else can re-run it. |
+| Beyond the bar | It fixes the boundary rather than leaving it to taste: parse a real quoted CSV with `awk` alone, then argue where that stops being the right tool and a program should take over — `challenges/challenge-01-csv-without-python.md` |
+
 ## Prerequisites
 
 - **Week 1 of C14** completed. You can navigate, redirect, and pipe.

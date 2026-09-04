@@ -20,6 +20,14 @@ By the end of this week, you will be able to:
 - **Reach** for POSIX ACLs (`getfacl`, `setfacl`) when the three-tier permission model can't express what you need, and recognize the `+` in `ls -l` that says ACLs are present.
 - **Diagnose** a "permission denied" error in under three minutes by reading the failure, the file's mode, the user's groups, and (when needed) the parent directory's mode.
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CIS 4204` — Administer users and groups, set and reason about file permissions including `umask` and the special bits, reach for access control lists when the three-tier model runs out, and grant elevated privilege through policy rather than a shared password. |
+| Industry | Stand up a shared server for a team so that each role can do its own job and nothing more, and be able to show an auditor why the boundary holds. |
+| Beyond the bar | The deliverable is not a description of a policy but an idempotent `setup.sh` paired with a harness that asserts the denials as well as the permissions, and a `teardown.sh` that undoes it — `mini-project/README.md` |
+
 ## Prerequisites
 
 - **Weeks 1 and 2 of C14** completed. You can navigate, pipe, and read text.

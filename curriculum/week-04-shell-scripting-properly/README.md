@@ -20,6 +20,14 @@ By the end of this week, you will be able to:
 - **Compose** a script with proper argument parsing (positional + flags), a usage function, an exit-code contract, and stderr / stdout separation that downstream pipelines can rely on.
 - **Reach** for `mktemp`, `flock`, and `IFS=` when the situation calls for them, instead of inventing temp-file or lock-file schemes by hand.
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `COP 4338` — Write programs that drive the operating system's own tools, handling arguments, exit status, signals and cleanup on every failure path. |
+| Industry | Ship a script that runs unattended at 03:00 against data somebody cares about, and fails safely when the disk is full, the filename has a space in it, or the network call hangs. |
+| Beyond the bar | The learner is handed somebody else's working-but-wrong backup script and asked for a judgement before a rewrite — what it costs, where it corrupts, which pitfall each line is — `challenges/challenge-01-rewrite-bad-script.md` |
+
 ## Prerequisites
 
 - **Weeks 1, 2, and 3 of C14** completed. You can navigate, pipe, and reason about who-can-do-what.

@@ -22,6 +22,14 @@ By the end of this week, you will be able to:
 - **Apply the four-question diagnostic.** Given a slow system, ask in order: (1) Is one CPU pegged or are they all? (2) Is memory exhausted or is the system swapping? (3) Is a disk saturated? (4) Is a network link saturated or is a connection backlogged? Each question has a tool and a number. The answer to question N before N+1 keeps you from guessing.
 - **Recognise the observer effect.** `strace`, `ltrace`, `perf trace`, and to a lesser extent `top -d 0.1` all perturb the system they observe. Choose the lightest tool that answers the question. Read `/proc` files directly when you can.
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `COP 4610` — Measure processes, memory, I/O and the system-call boundary on a running system, and reason about where its time goes. |
+| Industry | Be handed "the box is slow" with no further detail, and come back with the bottleneck named, the number that proves it, and a fix another engineer can replicate. |
+| Beyond the bar | The grade is the evidence chain, not the answer: every claim in the report has to be backed by captured output filed alongside it, and a `setup.sh` that replays the load for the reader — `mini-project/README.md` |
+
 ## Prerequisites
 
 - **Weeks 1-6 of C14** completed. You can navigate the filesystem, write scripts, read systemd units, and SSH into a hardened server. Week 6 is not strictly required, but the mini-project assumes a Linux box you have root on.

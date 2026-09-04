@@ -19,6 +19,14 @@ By the end of this week, you will be able to:
 - **Verify with `nmap`** from a remote host — the only honest test that your firewall does what you think it does. `nmap -sV`, `nmap -sS`, `nmap -p-`. Read the output. Know what `filtered` vs `closed` vs `open` means at the TCP layer.
 - **Recognize** the SSH and firewall mistakes that cause the most outages: editing `sshd_config` without keeping the old session open, `iptables -F` without resetting the default policy, `nft flush ruleset` over an SSH connection that the ruleset is keeping alive, the firewall that blocks loopback, the `Match` block that matches nothing.
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CIS 4204` — Configure secure remote access and host-based network filtering, and verify the configuration from outside the host. |
+| Industry | Take a fresh internet-facing host from its default image to something you would put your name on, then prove from another machine that it is closed — rather than assuming it. |
+| Beyond the bar | The host is then left exposed for a week and the traffic it actually attracted is parsed out of `journalctl -u sshd` into an evidence report: successful logins, failed attempts, the top source addresses — `mini-project/README.md` |
+
 ## Prerequisites
 
 - **Weeks 1-5 of C14** completed. You can navigate the filesystem, write a shell script that fails correctly, manage permissions, and write a systemd unit that survives `daemon-reload`.

@@ -11,6 +11,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 5.
 - C) `#!/bin/bash --norc`
 - D) `#!/usr/bin/bash -e`
 
+<details>
+<summary>Answer</summary>
+
+**B** — the `env` form finds Bash on `$PATH` (matters on macOS where `/bin/bash` is 3.2); `set -euo pipefail` is the three-flag opener.
+
+</details>
+
 ---
 
 **Q2.** Under `set -o pipefail`, what is the exit code of `false | true`?
@@ -19,6 +26,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 5.
 - B) 1 — `false` returned 1, and pipefail propagates it.
 - C) 2 — pipeline failure code.
 - D) Undefined; it depends on the Bash version.
+
+<details>
+<summary>Answer</summary>
+
+**B** — without `pipefail`, the exit is 0 (last command's). With `pipefail`, the rightmost non-zero is returned — here, `false`'s 1.
+
+</details>
 
 ---
 
@@ -29,6 +43,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 5.
 - C) `ls` output is word-split, breaking on filenames containing whitespace, newlines, or glob characters; use a glob (`for f in /var/log/*`) instead.
 - D) The `$(...)` form requires Bash 4.0+.
 
+<details>
+<summary>Answer</summary>
+
+**C** — `ls`'s output goes through word-splitting on `$IFS`. Filenames with space, tab, newline, or glob characters break. The fix is a glob or `find -print0`.
+
+</details>
+
 ---
 
 **Q4.** Which trap fires whenever the shell exits, for any reason — clean exit, signal, error, or `set -e` abort?
@@ -38,6 +59,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 5.
 - C) `trap CMD EXIT`
 - D) `trap CMD TERM`
 
+<details>
+<summary>Answer</summary>
+
+**C** — `EXIT` is the pseudo-signal that fires unconditionally on shell exit. The other three fire on specific signals or errors.
+
+</details>
+
 ---
 
 **Q5.** You write `local x=$(some_command)` inside a function. ShellCheck flags `SC2155`. What's the bug?
@@ -46,6 +74,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 5.
 - B) The exit code of `some_command` is swallowed by `local`'s exit code (always 0), defeating `set -e`.
 - C) `local` requires `=` to be surrounded by spaces.
 - D) Command substitution is forbidden inside `local`.
+
+<details>
+<summary>Answer</summary>
+
+**B** — `local x=$(cmd)` is two operations in one. `local` always returns 0, masking `cmd`'s exit code. `set -e` therefore won't catch the failure. Always: `local x; x=$(cmd)`.
+
+</details>
 
 ---
 
@@ -64,6 +99,13 @@ What happens if the script is killed with `kill -9 PID` (SIGKILL)?
 - C) The kernel kills the process before any handler can run; `$TMPDIR` is left in `/tmp`.
 - D) SIGKILL is ignored by Bash; the script continues.
 
+<details>
+<summary>Answer</summary>
+
+**C** — SIGKILL is delivered by the kernel directly, before the process can run any handler. The cleanup never runs. This is by design and there's no defense.
+
+</details>
+
 ---
 
 **Q7.** Which of these is the safe way to iterate over a directory's files, robust to filenames with spaces and newlines?
@@ -72,6 +114,13 @@ What happens if the script is killed with `kill -9 PID` (SIGKILL)?
 - B) `for f in $DIR/*; do ...; done`
 - C) `while IFS= read -r -d '' f; do ...; done < <(find "$DIR" -type f -print0)`
 - D) Both B and C are safe; A is the textbook wrong answer.
+
+<details>
+<summary>Answer</summary>
+
+**D** — both globs (B) and `find -print0 | read -d ''` (C) handle hostile filenames correctly. The `$(ls)` form (A) is BashPitfalls #1.
+
+</details>
 
 ---
 
@@ -82,6 +131,13 @@ What happens if the script is killed with `kill -9 PID` (SIGKILL)?
 - C) "Double-quote to prevent globbing and word splitting." Fix: `"$var"` instead of `$var`.
 - D) "Command not found." Fix: install the package.
 
+<details>
+<summary>Answer</summary>
+
+**C** — the most-flagged warning. The fix is "double-quote to prevent globbing and word splitting." Every unquoted variable is a potential bug.
+
+</details>
+
 ---
 
 **Q9.** What's the difference between `$@` (unquoted) and `"$@"` (quoted) when used as `for arg in $@; do ...; done` versus `for arg in "$@"; do ...; done`?
@@ -90,6 +146,13 @@ What happens if the script is killed with `kill -9 PID` (SIGKILL)?
 - B) `$@` is for arrays, `"$@"` is for positional parameters.
 - C) `$@` word-splits each argument, breaking arguments that contain spaces; `"$@"` preserves each argument as a single word.
 - D) `"$@"` is only valid inside `[[ ]]`.
+
+<details>
+<summary>Answer</summary>
+
+**C** — `"$@"` is a special syntax. Each positional argument is preserved as one word; word-splitting is suppressed on the *contents* of each one. The unquoted `$@` splits everything.
+
+</details>
 
 ---
 
@@ -100,24 +163,13 @@ What happens if the script is killed with `kill -9 PID` (SIGKILL)?
 - C) Use `pgrep backup.sh` to check; exit if another copy is found.
 - D) Rely on cron to never schedule overlapping runs.
 
----
-
-## Answer key
-
 <details>
-<summary>Reveal after attempting</summary>
+<summary>Answer</summary>
 
-1. **B** — the `env` form finds Bash on `$PATH` (matters on macOS where `/bin/bash` is 3.2); `set -euo pipefail` is the three-flag opener.
-2. **B** — without `pipefail`, the exit is 0 (last command's). With `pipefail`, the rightmost non-zero is returned — here, `false`'s 1.
-3. **C** — `ls`'s output goes through word-splitting on `$IFS`. Filenames with space, tab, newline, or glob characters break. The fix is a glob or `find -print0`.
-4. **C** — `EXIT` is the pseudo-signal that fires unconditionally on shell exit. The other three fire on specific signals or errors.
-5. **B** — `local x=$(cmd)` is two operations in one. `local` always returns 0, masking `cmd`'s exit code. `set -e` therefore won't catch the failure. Always: `local x; x=$(cmd)`.
-6. **C** — SIGKILL is delivered by the kernel directly, before the process can run any handler. The cleanup never runs. This is by design and there's no defense.
-7. **D** — both globs (B) and `find -print0 | read -d ''` (C) handle hostile filenames correctly. The `$(ls)` form (A) is BashPitfalls #1.
-8. **C** — the most-flagged warning. The fix is "double-quote to prevent globbing and word splitting." Every unquoted variable is a potential bug.
-9. **C** — `"$@"` is a special syntax. Each positional argument is preserved as one word; word-splitting is suppressed on the *contents* of each one. The unquoted `$@` splits everything.
-10. **B** — `flock` is the canonical answer. The lock is released by the kernel when the process dies (even on SIGKILL); `.pid` files become stale, `pgrep` is racy, cron has no enforcement.
+**B** — `flock` is the canonical answer. The lock is released by the kernel when the process dies (even on SIGKILL); `.pid` files become stale, `pgrep` is racy, cron has no enforcement.
 
 </details>
 
 If you scored 9+: move to homework. 7–8: re-read the lecture sections you missed (especially `set -e` exemptions and the trap chain). <7: re-read both lectures from the top.
+
+---

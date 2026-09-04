@@ -17,6 +17,14 @@ By the end of this week, you will be able to:
 - **Use** `man` and `info` and `--help` and Tab-completion as your first three sources of truth — before searching the web.
 - **Survive** in `vi`/`vim` and `nano` long enough to edit a config file without panicking.
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `CGS 3269` — Work at the shell: navigate a Unix filesystem, read file metadata, compose commands with redirection, pipes and globs, and use the system's own manual as the first reference. |
+| Industry | Take over an unfamiliar machine you have only shell access to, and find where a service keeps its configuration, its data and its logs — without asking the person who set it up. |
+| Beyond the bar | The week ends by breaking a machine on purpose and putting it back without reinstalling: a bad `PATH`, a mangled config, a shell that will not start — `challenges/challenge-01-recover-from-disaster.md` |
+
 ## Prerequisites
 
 - **C1 Weeks 1–4** completed (basic Python, comfortable in a terminal at all).

@@ -22,6 +22,14 @@ By the end of this week, you will be able to:
 - **Apply filesystem-maintenance rules of thumb.** Know the cardinal rule: **never run `fsck` on a mounted filesystem**. You can lose all data. `fsck` is for unmounted filesystems or for the root filesystem at boot (when systemd hands the FS over to `systemd-fsck` before mounting it `rw`). Schedule periodic checks via the filesystem's own facilities: `tune2fs -c -i` for ext4, `xfs_repair` for xfs (and never on a mounted FS), btrfs `scrub` for btrfs (which **does** run online). Reference: `fsck(8)`, `tune2fs(8)`, `xfs_repair(8)`, `btrfs-scrub(8)`.
 - **Run a real server for seven days.** Provision a small VM (free tier or local). Install nginx (or a tiny Flask app) and serve real content. Configure logs, monitoring, fail2ban, unattended upgrades. Watch the disk, the cache, and the journal for a week. Write a postmortem.
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `COP 4610` — Storage and the I/O subsystem: block devices, partition tables, filesystems, mounting, and the buffering and caching that sit between a program and the disk. |
+| Industry | Add storage to a running server, mount it so it survives a reboot, and know what the cache is doing to the benchmark before you quote the number to anybody. |
+| Beyond the bar | The track ends operationally rather than academically: run a real Linux server for seven calendar days, watch the disk, the cache and the journal, and write the postmortem — `mini-project/README.md` |
+
 ## Prerequisites
 
 - **Weeks 1-7 of C14** completed. You can shell, script, manage units, harden SSH, and apply the USE method. Week 7 is strictly required: the mini-project is a 7-day operational exercise and you need the observability vocabulary to write the postmortem.

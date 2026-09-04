@@ -19,6 +19,14 @@ By the end of this week, you will be able to:
 - **Compose** a multi-instance template unit (`name@.service`) with `%i` / `%I` specifiers, and instantiate it with `systemctl start name@one.service name@two.service`.
 - **Reach** for `systemd-analyze verify`, `systemd-analyze security`, `systemctl status`, `systemctl cat`, and `systemctl show` when something doesn't behave.
 
+## Standards this week meets
+
+| Bar | What this week is measured against |
+| --- | --- |
+| University | `COP 4610` — Processes under an init system: service lifecycle and state, restart policy, scheduled work, logging, and confining a process to the privileges it needs. |
+| Industry | Hand a script to the machine instead of running it yourself — a unit file with a restart policy, logs somebody on call can filter at 03:00, and a blast radius you can describe. |
+| Beyond the bar | The sandbox is measured, not asserted: the learner takes a wide-open service and ratchets `systemd-analyze security` down directive by directive until the exposure number stops moving — `exercises/exercise-03-sandbox-a-service.md` |
+
 ## Prerequisites
 
 - **Weeks 1, 2, 3, and 4 of C14** completed. You can navigate, pipe, reason about permissions, and write a script that fails correctly with `set -euo pipefail`.

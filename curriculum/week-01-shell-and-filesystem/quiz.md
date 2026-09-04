@@ -11,6 +11,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - C) A kernel.
 - D) A shell.
 
+<details>
+<summary>Answer</summary>
+
+**C** — the kernel. Strictly. GNU/Linux is closer to "the OS most people mean."
+
+</details>
+
 ---
 
 **Q2.** Which of these is **not** typically a separate program?
@@ -19,6 +26,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - B) `gnome-terminal`
 - C) `cd`
 - D) `ls`
+
+<details>
+<summary>Answer</summary>
+
+**C** — `cd` is a shell **builtin**; it doesn't fork an external process. The others are external programs.
+
+</details>
 
 ---
 
@@ -29,6 +43,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - C) The current user's home directory.
 - D) The previous directory.
 
+<details>
+<summary>Answer</summary>
+
+**C** — `~` is the home directory. `$HOME` and `~` are equivalent.
+
+</details>
+
 ---
 
 **Q4.** Where do system-wide configuration files live by convention?
@@ -37,6 +58,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - B) `/etc`
 - C) `/var/conf`
 - D) `~/.config`
+
+<details>
+<summary>Answer</summary>
+
+**B** — `/etc`.
+
+</details>
 
 ---
 
@@ -47,6 +75,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - C) `find`
 - D) `pwd`
 
+<details>
+<summary>Answer</summary>
+
+**A** — `which`. (`type` also works and is sometimes more accurate.)
+
+</details>
+
 ---
 
 **Q6.** What does `2>&1` mean?
@@ -55,6 +90,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - B) Send stderr to wherever stdout currently goes.
 - C) Send stdout to wherever stderr goes.
 - D) Redirect both to the file named `&1`.
+
+<details>
+<summary>Answer</summary>
+
+**B** — "send stderr to wherever stdout currently goes." Order matters when combined with `>`.
+
+</details>
 
 ---
 
@@ -65,6 +107,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - C) Regular expressions.
 - D) Useful for matching filenames.
 
+<details>
+<summary>Answer</summary>
+
+**C** — globs are NOT regex. They look similar but have different semantics.
+
+</details>
+
 ---
 
 **Q8.** Inside double quotes, which is expanded?
@@ -73,6 +122,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - B) Variables only.
 - C) Both globs and variables.
 - D) Neither.
+
+<details>
+<summary>Answer</summary>
+
+**B** — variables expand in double quotes, globs do NOT. (Single quotes expand neither.)
+
+</details>
 
 ---
 
@@ -83,6 +139,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - C) `/var`
 - D) `/etc`
 
+<details>
+<summary>Answer</summary>
+
+**B** — `/proc` is virtual; the kernel synthesizes its contents on read.
+
+</details>
+
 ---
 
 **Q10.** Your prompt ends in `#` instead of `$`. What does that signal?
@@ -92,24 +155,13 @@ Ten multiple-choice. Lectures closed. Aim 9/10 before Week 2.
 - C) You're running as **root**.
 - D) Tab-completion is disabled.
 
----
-
-## Answer key
-
 <details>
-<summary>Reveal after attempting</summary>
+<summary>Answer</summary>
 
-1. **C** — the kernel. Strictly. GNU/Linux is closer to "the OS most people mean."
-2. **C** — `cd` is a shell **builtin**; it doesn't fork an external process. The others are external programs.
-3. **C** — `~` is the home directory. `$HOME` and `~` are equivalent.
-4. **B** — `/etc`.
-5. **A** — `which`. (`type` also works and is sometimes more accurate.)
-6. **B** — "send stderr to wherever stdout currently goes." Order matters when combined with `>`.
-7. **C** — globs are NOT regex. They look similar but have different semantics.
-8. **B** — variables expand in double quotes, globs do NOT. (Single quotes expand neither.)
-9. **B** — `/proc` is virtual; the kernel synthesizes its contents on read.
-10. **C** — root. Pause and verify with `whoami` before pressing Enter.
+**C** — root. Pause and verify with `whoami` before pressing Enter.
 
 </details>
 
 If you scored 9+: move to homework. 7–8: re-read the missed lecture sections. <7: re-read Lecture 1 and 2 from the top.
+
+---
